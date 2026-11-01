@@ -1,0 +1,9 @@
+/target
+
+# Configuration locale et fichiers temporaires
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db

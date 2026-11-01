@@ -1,0 +1,14 @@
+{
+  "app": "tablo",
+  "window": {
+    "width": 1320,
+    "height": 840,
+    "theme": "dark"
+  },
+  "features": {
+    "filter": true,
+    "tree": true,
+    "export": true
+  },
+  "notes": ["léger", "rapide", "agréable"]
+}

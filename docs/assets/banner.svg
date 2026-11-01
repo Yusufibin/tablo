@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Tablo — Vos données, en clair.</title>
+  <desc id="desc">Bannière illustrée de Tablo, lecteur CSV et JSON en Rust. Un tableau stylisé accompagne le nom du projet sur fond sombre.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#0d1015"/>
+      <stop offset="1" stop-color="#182638"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1" y2="1">
+      <stop stop-color="#4fa9f1"/>
+      <stop offset="1" stop-color="#3ecf8e"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#4fa9f1" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="440" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="440" rx="24" fill="url(#grid)"/>
+  <rect x="68" y="70" width="58" height="58" rx="15" fill="url(#accent)"/>
+  <g stroke="#0d1015" stroke-width="3" fill="none">
+    <rect x="82" y="85" width="30" height="28" rx="3"/>
+    <path d="M82 94h30M93 94v19"/>
+  </g>
+  <g font-family="DejaVu Sans,Arial,sans-serif">
+    <text x="68" y="220" fill="#e8edf3" font-size="80" font-weight="700" letter-spacing="-4">Tablo<tspan fill="#4fa9f1">.</tspan></text>
+    <text x="72" y="271" fill="#e8edf3" font-size="29">Vos données, en clair.</text>
+    <text x="72" y="311" fill="#8a95a4" font-size="18">Un fichier. Un onglet. Une vue limpide.</text>
+    <g font-size="13" font-weight="700" letter-spacing="1">
+      <rect x="72" y="351" width="66" height="29" rx="7" fill="#143026"/>
+      <text x="88" y="371" fill="#3ecf8e">CSV</text>
+      <rect x="150" y="351" width="76" height="29" rx="7" fill="#30240e"/>
+      <text x="165" y="371" fill="#f0ba45">JSON</text>
+      <rect x="238" y="351" width="100" height="29" rx="7" fill="#1c222c"/>
+      <text x="253" y="371" fill="#c492f6">NDJSON</text>
+      <text x="359" y="371" fill="#8a95a4">BUILT WITH RUST</text>
+    </g>
+    <rect x="639" y="72" width="573" height="302" rx="14" fill="#0d1015" stroke="#2c394a"/>
+    <path d="M640 119h571" stroke="#2c394a"/>
+    <circle cx="662" cy="96" r="4" fill="#f87171"/>
+    <circle cx="677" cy="96" r="4" fill="#f0ba45"/>
+    <circle cx="692" cy="96" r="4" fill="#3ecf8e"/>
+    <text x="720" y="102" fill="#8a95a4" font-size="13">people.csv</text>
+    <rect x="660" y="137" width="530" height="33" rx="6" fill="#14181f" stroke="#26303e"/>
+    <text x="675" y="158" fill="#4fa9f1" font-size="13">ville:paris</text>
+    <rect x="660" y="187" width="530" height="34" rx="4" fill="#1c222c"/>
+    <g fill="#8a95a4" font-size="12" font-weight="700">
+      <text x="678" y="209">NOM</text>
+      <text x="915" y="209">VILLE</text>
+      <text x="1059" y="209">STATUT</text>
+    </g>
+    <rect x="660" y="225" width="530" height="42" rx="4" fill="#4fa9f1" fill-opacity=".09"/>
+    <g font-size="15">
+      <text x="678" y="251" fill="#e8edf3">Ada Lovelace</text>
+      <text x="915" y="251" fill="#e8edf3">Paris</text>
+      <text x="1059" y="251" fill="#3ecf8e">payé</text>
+      <text x="678" y="296" fill="#e8edf3">Grace Hopper</text>
+      <text x="915" y="296" fill="#e8edf3">Paris</text>
+      <text x="1059" y="296" fill="#3ecf8e">payé</text>
+    </g>
+    <path d="M660 318h530" stroke="#26303e"/>
+    <circle cx="676" cy="344" r="4" fill="#3ecf8e"/>
+    <text x="690" y="349" fill="#8a95a4" font-size="12">2 lignes sur 5</text>
+    <text x="1106" y="349" fill="#4fa9f1" font-size="12">LOCAL</text>
+  </g>
+</svg>
